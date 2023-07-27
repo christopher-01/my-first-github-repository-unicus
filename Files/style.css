@@ -1,0 +1,159 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: rgb(99, 204, 239);
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    
+}
+
+.Christopher{
+    font-size: 2em;
+    color: white;
+    user-select: none;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.navigation .Login-btn{
+    margin-left: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    width: 130px;
+    height: 50x;
+    cursor: pointer;    
+    border-radius: 6px;
+    outline: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #fff;
+    transition: .5s;
+}
+.navigation .Login-btn:hover{
+    background: #fff;
+    color: green;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    bottom: -6px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover:after{
+    transform: scaleX(1);
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    text-align: center;
+    color: #fff;
+}
+.font{
+    font-size: large;
+    font-weight:lighter;
+    font-family: sans-serif;
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 80px;
+}
+.content p{
+    width: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 15px;
+}
+.contact-me{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    margin-top: 150px;
+    margin-bottom: 600px;
+    margin-left: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.contact-box{
+    width: 500px;
+    background-color:transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    display: flex;
+    float: right;
+    margin-top: 100px;
+    margin-right: 0;
+}
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+
+}
+button{
+    text-decoration: none;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.contact {
+    color: #fff;
+}

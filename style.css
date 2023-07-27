@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.sign-from{
+    padding-top: 100px;
+    border-radius: 5px;
+    background: url(gray-abstract-wireframe-technology-background.jpg);
+    height: 400px;
+}
+.sign-section{
+    /* border: 2px solid black; */
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    height: 400px;
+    display: flex;
+}
+.sign-heading h1{
+    width: 100%;
+    font-size: large;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.sign-heading p{
+    text-align: center;
+    font-size: light;
+    padding-bottom: 10px;
+}
+
+.form-group input{
+    /* border: 2px solid black; */
+    width: 50%;
+}
+
+.sign-heading{
+    /* border: 2px solid green; */
+    width: 100%;   
+}
+.sign-left{
+    /* border: 2px solid red; */
+    width: 50%;
+}
+
+.sign-email input{
+    width: 60%;
+    border: 1px solid blue;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    color: black;
+    padding-left: 6px;
+    margin-top: 10px;
+}
+
+.sign-password input{
+    width: 60%;
+    border: 1px solid blue;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    color: black;
+    padding-left: 6px;
+    margin-top: 10px;
+}
+.icofont-envelope{
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.icofont-ui-password{
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.form-group input[type='radio']{
+    width: 8%;
+    height: 10px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.rem{
+    width: 50%;
+    padding-right: 0px;
+    float: left;
+}
+.recovery{
+    width: 50%;
+    margin-left: 50px;
+    display:flex;
+    padding-top: 15px;
+    padding-right: 0;
+}
+.login{
+    align-items: center;
+    margin-top: 30px;
+    display: block;
+    margin-left: 40%;
+    width: 70%;
+    border: 1px solid blue;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    color: #fff;
+    margin-left: 10%;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+.google-sign-in{
+    align-items: center;
+    margin-top: 30px;
+    display: block;
+    margin-left: 30%; 
+    margin-bottom: 30px;
+    width: 70%;
+    border: 1px solid blue;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    color: #000;
+    margin-left: 10%;
+    background-color: transparent;
+    margin-bottom: 50px;
+}
+.google-sign-in:hover{
+    background-color: blue;
+    color: white;
+}
+.sign-up{
+    padding-left: 20px;
+}
+.sign-up a{
+    text-decoration: none;
+    color: blue;
+}
+.recovery a{
+    text-decoration: none;
+    color: blue;
+}
+.icofont-envelope{
+    color: blue;
+}
+.icofont-ui-password{
+    color: blue;
+}
+.password-input{
+    padding-left: 30px;
+}
+.email-input{
+    padding-left: 30px;
+}

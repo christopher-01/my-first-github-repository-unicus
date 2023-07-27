@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.body{
+    text-align: center;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),  rgba(0,0,0,0.7)), url(background.use.jpg);
+    position: fixed;
+}
+.section{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    margin-right: 250px;
+}
+.contact.me{
+    width: 80%;
+    margin-right: 250px;
+    padding: 30px 0px;
+    margin-bottom: 50px;
+}
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.navigation .Login-btn{
+    margin-left: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    width: 130px;
+    height: 50x;
+    cursor: pointer;    
+    border-radius: 6px;
+    outline: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #fff;
+    transition: .5s;
+}
+.navigation .Login-btn:hover{
+    background: #fff;
+    color: green;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    bottom: -6px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover:after{
+    transform: scaleX(1);
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 10px;
+    float: right;
+    margin-top: 350px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+.about {
+    color: #fff;
+}
